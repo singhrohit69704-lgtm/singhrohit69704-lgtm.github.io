@@ -42,7 +42,9 @@ const revealObserver = new IntersectionObserver((entries, currentObserver) => {
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 
 document.getElementById('year').textContent = new Date().getFullYear();
-window.addEventListener('pointermove', (event) => {
-  cursorGlow.style.left = `${event.clientX}px`;
-  cursorGlow.style.top = `${event.clientY}px`;
-});
+if (cursorGlow) {
+  window.addEventListener('pointermove', (event) => {
+    cursorGlow.style.left = `${event.clientX}px`;
+    cursorGlow.style.top = `${event.clientY}px`;
+  });
+}
