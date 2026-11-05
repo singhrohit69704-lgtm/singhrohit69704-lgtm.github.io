@@ -53,8 +53,6 @@ h2 { font-size:clamp(48px,7vw,100px); font-weight:500; letter-spacing:-.09em; li
 .coin { position:absolute; border:1px solid var(--acid); color:var(--acid); width:170px; height:170px; border-radius:50%; display:grid; place-items:center; font:110px Georgia; z-index:1; box-shadow:inset 0 0 0 11px rgba(213,242,99,.08); }
 .coin-one { top:105px; left:22%; transform:rotate(15deg); }.coin-two { top:235px; left:51%; width:95px; height:95px; font-size:60px; opacity:.55; transform:rotate(-24deg); }
 .crosshair { position:absolute; width:45%; aspect-ratio:1; right:-8%; bottom:-23%; border:1px solid #7e793b; border-radius:50%; opacity:.6; }
-.project-hanmul .project-art { background:#677879; }
-.project-hanmul .project-art:before { content:''; position:absolute; inset:0; background:linear-gradient(140deg,transparent 40%,rgba(30,40,39,.32)),linear-gradient(0deg,#233230 0 28%,transparent 28%); }
 .moon { width:115px; height:115px; border-radius:50%; background:#e1e3cc; position:absolute; right:18%; top:70px; box-shadow:0 0 45px rgba(220,236,190,.4); }
 .mountain { position:absolute; bottom:27%; width:0; height:0; border-left:300px solid transparent; border-right:300px solid transparent; border-bottom:270px solid #394d4b; left:5%; }
 .mountain-back { left:35%; bottom:27%; border-left-width:260px; border-right-width:260px; border-bottom-color:#536b68; }
